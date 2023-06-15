@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="8" viewBox="0 0 122 8">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="122" height="8" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_1" data-name="Repeat Grid 1" clip-path="url(#clip-path)">
+    <g transform="translate(-439 -1724)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(439 1724)" fill="#cabba3"/>
+    </g>
+    <g transform="translate(-411 -1724)">
+      <circle id="Ellipse_3-2" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(439 1724)" fill="#cabba3"/>
+    </g>
+    <g transform="translate(-383 -1724)">
+      <circle id="Ellipse_3-3" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(439 1724)" fill="#cabba3"/>
+    </g>
+    <g transform="translate(-355 -1724)">
+      <circle id="Ellipse_3-4" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(439 1724)" fill="#cabba3"/>
+    </g>
+    <g transform="translate(-327 -1724)">
+      <circle id="Ellipse_3-5" data-name="Ellipse 3" cx="4" cy="4" r="4" transform="translate(439 1724)" fill="#cabba3"/>
+    </g>
+  </g>
+</svg>
