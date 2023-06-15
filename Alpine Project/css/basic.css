@@ -1,0 +1,1310 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th{font:14px/22px Arial, Helvetica, sans-serif;color:#3b3b3b;text-decoration:none;}
+body{
+    
+}
+body{background: url(../images/bg.gif) repeat;margin:0;line-height:1; overflow-x:hidden!important;}
+
+a,a:link,a:visited{font:12px Arial, Helvetica, sans-serif;color:#fff;text-decoration:none}
+
+a:hover,a:focus{text-decoration:underline;}
+
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+
+h1{font:25px Arial, Helvetica, sans-serif; color:#08358a;}
+
+h2{font:20px Arial, Helvetica, sans-serif; color:#f5f5f5;}
+
+h3{font:bold 22px Arial, Helvetica, sans-serif; color:#08358a;}
+
+h4{font:19px Arial, Helvetica, sans-serif; color:#08358a;}
+
+html,body,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,del,img,ins,kbd,q,s,small,strike,strong,tt,u,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,th,td,article,aside,details,embed,figure,figcaption,header,hgroup,menu,output,ruby,summary,time,mark,audio,video{border:0;vertical-align:middle;border-collapse:collapse;border-spacing:0;text-align:left;margin:0;padding:0}
+
+command,datalist,keygen,mark,meter,progress,rp,rt,ruby,time,wbr{display:inline}
+
+img{border:0;-ms-interpolation-mode:bicubic}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+
+ol,ul{list-style:none}
+
+table{border-collapse:collapse;border-spacing:0}
+
+::selection{color:#fff;background:#000000}
+
+::-moz-selection{color:#fff;background:#000000}
+
+::-webkit-selection{color:#fff;background:#000000}
+
+::-o-selection{color:#fff;background:#000000}
+
+::-ms-selection{color:#fff;background:#000000}
+
+img,div,a,input{behavior:url(../iepngfix.htc)}
+
+input[type="text"]:focus,input[type="password"]:focus{outline:none}
+
+textarea{overflow:auto;outline:none}
+
+label,input[type="button"],input[type="submit"],button{cursor:pointer}
+
+input[type="radio"]{vertical-align:middle}
+
+input[type="checkbox"]{vertical-align:baseline}
+
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;overflow:visible}
+
+svg:not(:root){overflow:hidden}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+html{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-o-text-size-adjust:100%;height: 100%;}
+
+*{padding:0;margin:0;box-sizing: border-box;}
+header{
+    width: 100%;
+    float: left;
+}
+
+.section1{
+    width: 100%;
+    float: left;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.sec1left{
+    width: 50%;
+    float: left;
+}
+.sec1right{
+    width: 50%;
+    float: right;
+    margin-top: 30px;
+}
+.sec1right a{
+    color: #50514F;
+    font: 25px/30px 'oswaldbook';
+    text-decoration: none;
+   float: right;
+}
+.sec1right a:nth-of-type(2){
+    color:#252C79;
+    font: 25px/30px 'oswaldbook';
+    margin-right: 70px;
+    float: right;
+}
+.sec1right a svg{
+    margin-right: 10px;
+    vertical-align: inherit;
+}
+.header2{
+    width: 100%;
+    float: left;
+    background-color: #F5F5F5;
+    padding: 15px 0px;
+}
+.list li a{
+    color:#50514F;
+    text-decoration: none;
+    font: 16px/20px 'oswaldbook';
+    float: left;
+}
+.list{
+    width: 73%;
+    float: right;
+    height: auto;
+}
+.list li{
+    width: auto;
+    float: left;
+    margin-left: 59px;
+    
+}
+.list li a svg{
+        vertical-align: inherit;
+}
+.section2{
+    background-image: url(../images/Group%20447.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    height: 606px;
+}
+.sec21 h3{
+    text-align: center;
+    color: #fff;
+    font: 44px/50px 'oswaldbook';
+}
+.sec21 a{
+    padding: 10px 60px;
+    border: 1px solid white;
+        float: none;
+    display: inline-block;
+    margin-top: 25px;
+    font: 18px/25px 'oswaldbook';
+}
+.sec21{
+    text-align: center;
+    width: 100%;
+    float: left;
+    height: auto;
+    padding: 200px 0px;
+}
+.sec21 p{
+    text-align: center;
+    padding: 40px;
+}
+.sameclass{
+    width: 366px;
+    float: left;
+    height: 280px;
+    background-color: #CABBA3;
+    margin-right: 50px;
+    border-bottom: 10px solid #CABBA3;
+}
+.sameclass:last-child{
+    margin-right: 0;
+}
+.sameclass p b{
+    color: white;
+    font: 31px/40px  'oswaldbook';
+    margin-top: 70px;
+}
+.sameclass p{
+    color:white;
+    font: 15px/20px 'oswaldbook';
+    margin-top: 20px;
+}
+/*.center{
+    max-width: 1200px;
+    margin: 0 auto;
+}*/
+.sameclass svg{
+    margin-top: 50px;  
+}
+.center{
+    max-width: 90%;
+    margin: auto;
+}
+.section3{
+    width: 100%;
+    float: left;
+    margin-top: -85px;
+}
+.sameclass.bg2{
+    background-color: #C3C66F;
+    border-bottom: 10px solid #C3C66F;
+}
+.sameclass.bg3{
+    background-color: #C7CCC8;
+    border-bottom: 10px solid #C7CCC8;
+}
+.section4{
+    width: 100%;
+    float: left;
+    background-color: #C3C66F;
+    height: 264px;
+    margin-top: 63px;
+}
+.center2{
+    width: 1100px;
+    margin: auto;
+}
+.samediv{
+    width: 230px;
+    float: left;
+    margin: 10px 22px;
+    padding: 40px;
+}
+.samediv h1{
+    font: 76px/80px 'oswaldbook';
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.samediv p{
+    font: 15px/20px 'oswaldbook';
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+}
+.section5{
+    width: 100%;
+    float: left;
+    background-color: #F7F9FA;
+    margin-top: 20px;
+}
+.sec5left{
+    width: 50%;
+    float: left;
+   padding: 85px 0px 0px 0px;
+}
+.sec5left h3{
+    color: #CABBA3;
+    font: 26px/30px 'oswaldbook';
+}
+.sec5left h1{
+    color: #50514F;
+    font: 39px/45px 'oswaldbook';
+    margin-top: 30px;
+}
+.sec5left ul{
+    margin-top: 25px;
+    list-style: circle;
+    font: 15px/20px 'oswaldbook';
+}
+.sec5left ul li{
+    margin-top: 15px;
+}
+.sec5left p{
+    margin-top: 40px;
+    font: 15px/30px 'oswaldbook';
+}
+.sec5right{
+    width: 50%;
+    float: left;
+    padding: 85px 0px 0px 0px;
+}
+.section6{
+    width: 100%;
+    float: left;
+}
+.samedivall{
+    width: 100%;
+    float: left;
+  padding: 85px 0px 40px 0px;
+}
+.samedivall h3{
+    color: #CABBA3;
+    font: 26px/30px 'oswaldbook';
+    text-align: center;
+}
+.samedivall h1{
+    color: #50514F;
+    font: 39px/45px 'oswaldbook';
+    text-align: center;
+    margin-top: 25px;
+}
+.sec6left
+{
+    width: 30.33%;
+    float: left;
+    margin-top: 100px;
+    position: relative;
+}
+.left1{
+    width: 100%;
+    float: left;
+    border: 1px solid #CABBA3;
+    border-radius: 50px;    
+ /* position: relative;*/
+        padding: 6px;
+    margin-top: 35px;
+}
+.center2{
+    width: 77%;
+    margin: auto;
+}
+.left1 svg{
+    float: left;
+}
+/*.left1 p{
+   position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0
+}*/
+.left1 p::first-letter{
+    font-size: xx-large;
+    color: #50514F;
+}
+.left11{
+    width: 30%;
+    float: left;
+}
+.left12{
+    width: 70%;
+    float: left;
+}
+.left12 p{
+    margin-top: 18px;
+}
+.sec6center{
+  width: 33.33%;
+    float: left;
+    margin: 17px 33px;
+    /* text-align: center; */
+    margin-top: 116px;
+    padding: 28px 2px;
+    position: relative;
+}
+.centersec6{
+       width: 50%;
+    float: left;
+    text-align: center;
+    border-radius: 107px;
+    border: 1px solid #252C79;
+    height: 200px;
+    padding: 31px 0px;
+    margin-left: 80px;
+}
+.sec6right{
+     width: 33.33%;
+    float: left;
+    margin-top: 100px;
+}
+.right1{
+       width: 100%;
+    float: left;
+    border: 1px solid #CABBA3;
+    border-radius: 50px;    
+ /* position: relative;*/
+        padding: 6px;
+    margin-top: 35px;
+}
+.sec6center::before{
+    position: absolute;
+    background:url(../images/Repeat%20Grid%201.svg) no-repeat;
+    content: ' ';
+    width: 100%;
+    height: 10px;
+    top: 60px;
+    left: -25px;
+}
+.sec6center::after{
+    position: absolute;
+    background:url(../images/Repeat%20Grid%201.svg) no-repeat;
+    content: ' ';
+    width: 100%;
+    height: 10px;
+    top: 60px;
+}
+.sec6left.forgrid::before{
+     position: absolute;
+    background:url(../images/Repeat%20Grid%201.svg) no-repeat;
+    content: ' ';
+    width: 100%;
+    height: 10px;
+    bottom: 51px;
+    left: 374px;
+}
+.sec6left.forsecgrid::before{
+          position: absolute;
+    background:url(../images/Repeat%20Grid%201.svg) no-repeat;
+    content: ' ';
+    width: 100%;
+    height: 10px;
+    bottom: 51px;
+    right: 150px;
+}
+.section7{
+    width: 100%;
+    float: left;
+    background: url(../images/8680.png) no-repeat top 260px right;
+    
+}
+.sec7left{
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+}
+.sec7leftleft2 p b{
+    font: 31px/40px 'oswaldbook';
+    color: #50514F;
+}
+.sec7leftleft2 p{
+    font: 15px/20px 'oswaldbook';
+    color: #50514F;
+}
+.section8{
+    width: 100%;
+    float: left;
+}
+.sec8{
+    width: 100%;
+    float: left;
+    position: relative; 
+}
+.sec8::before{
+    position: absolute;
+    content: ' ';
+    background: url(../images/Group%20455.svg) no-repeat;
+    width: 100%;
+    height: 451px;
+    top: 75px;
+}
+.sec81{
+    width: 50%;
+    float: left;
+    margin-top: 200px;
+}
+.sec82{
+    width: 50%;
+    float: left;
+    margin-top: 240px;
+}
+.sec7right{
+    width: 100%;
+    float: left;
+    margin-top: 108px;
+}
+.sec7leftleft1{
+    width: auto;
+    float: left;
+}
+.sec7leftleft2{
+    width: auto;
+    float: left;
+    padding: 4px 0px 0px 30px;
+}
+.sec81 p{
+    color: #50514F;
+    font: 29px/35px 'oswaldbook';
+    text-align: center;
+}
+.sec81 h3{
+    color: #C3C66F;
+    font: 29px/35px 'oswaldbook';
+    text-align: center;
+}
+.sec82 p{
+    color: #50514F;
+    font: 29px/35px 'oswaldbook';
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.sec82 h3{
+    color: #C3C66F;
+    font: 73px/80px 'oswaldbook';
+    text-align: center;
+}
+.section9{
+    width: 100%;
+    float: left;
+    margin-top: 115px;
+}
+.sec9{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 85px;
+}
+.sec9 svg{
+    text-align: center;
+}
+.sec9text p{
+    text-align: center;
+    font: 15px/20px 'oswaldbook';
+}
+.sec9text{
+    margin-top: 25px;
+}
+.section10{
+    margin-top: 80px;
+    width: 100%;
+    position: relative;
+    float: left;
+    border-top: 3px solid #252C79;
+}
+/*.section10 iframe{
+    position: relative;
+    float: left;
+}*/
+.sec10{
+      float: left;
+    position: absolute;
+    /* right: 0; */
+    bottom: 150px;
+    float: lef;
+    right: 0px;
+}
+.section11{
+    width: 100%;
+    float: left;
+    height: 290px;
+    background-color: #252C79;
+     padding: 40px 0px;
+}
+.imga{
+    margin-top: 50px;
+    width: auto;
+    float: left;
+}
+.imga img{
+    border-radius: 20px;
+}
+.sec11{
+    float: left;
+    width: 140px;
+}
+.sec11 img{
+    width: 100%;
+    float: left;
+    border-radius: 15px;
+}
+.sec11 svg{
+        margin: 16px 12px;
+}
+.socialmedia svg{
+     color: red;
+    margin-top: 20px;
+    margin: 13px;
+}
+.socialmedia{
+    margin-top: 15px;
+}
+.unlist{
+    float: left;
+   color: white;
+}
+.unlist li{
+    width: 100%;
+    float: left;
+    padding: 0px 0px 10px 0px;
+    text-align: center;
+        font: 16px/20px 'oswaldbook';
+}
+.form{
+    width: 394px;
+    float: left;
+}
+.form a{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid white;
+    font: 17px/20px 'oswaldbook';
+}
+.section12{
+    width: 100%;
+    float: left;
+    background-color: #353D8B;
+    height: 53px;
+    margin-top: 15px;
+}
+.lastdiv{
+    right: 0;
+    width: 378px;
+    height: 72px;
+    float: right;
+    background-color: #C3C66F;
+    margin-top: -18px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.lastdiv svg{
+    margin-top: 15px;
+}
+.lastdiv p{
+    margin-top: 15px;
+    font: 23px/30px 'oswaldbook';
+    color: white;
+}
+.section13{
+    width: 100%;
+    float: left;
+    background-color:#252C79;
+    height: 69px;
+}
+.textdiv{
+    color: white;
+    margin: 0px 10px;
+}
+.textdiv h5{
+    font: 16px/20px 'oswaldbook';
+}
+.para{
+    text-align: center;
+     color: white;
+     font: 15px/20px 'oswaldbook';
+    margin-top: 20px;
+}
+
+.sec7ul{
+    width: 50%;
+    float: left;
+}
+.sec7ul li{
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+}
+.sec7ul li:last-child{
+    margin-bottom: 0px;
+}
+.mainsec11{
+    padding: 
+}
+footer{
+    width: 100%;
+    float: left;
+    background-color: #252C79;
+    position: relative;
+}
+.form textarea{
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+.form input:last-child{
+    padding: 10px 10px;
+    width: 100%;
+    float: left;
+    border: 1px solid #fff;
+    background-color:  #252C79;
+    color: #fff;
+    margin-top: 20px;
+}
+.last{
+    background-color: #353D8B;
+    text-align: center;
+    width: 100%;
+    float: left;
+    height: 53px;
+    display: table;
+}
+.last p{
+    text-align: center;
+    color: white;
+    font: 14px/20px 'oswaldbook';
+    display: table-cell;
+}
+.sec5right img{
+    max-width: 100%;
+    display: block;
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 925px;
+    }
+    .list {
+        width: 100%;
+    }
+    .sameclass{
+        width: 300px;
+        margin-right:  10px;
+    }
+    .samediv{
+            width: 160px;
+    margin: 41px 22px;
+    padding: 0;
+    }
+    .samediv h1{
+        font: 54px/60px 'oswaldbook';
+    }
+    .samediv p{
+        font: 14px/20px 'oswaldbook';
+    }
+    .sec5left h3{
+        font: 22px/30px 'oswaldbook';
+    }
+    .sec5left h1{
+        font: 33px/40px 'oswaldbook';
+        margin-top: 17px;
+    }
+    .samedivall{
+        padding: 45px 0px 7px 0px;
+    } 
+    .sec6left {
+        width: 29.33%;
+    }
+    .sec6left{
+        margin-top: 36px;
+    }
+    .sec6center{
+        margin-top: 40px;
+        padding: 41px 2px;
+    }
+    .sec6left.forgrid::before {
+        bottom: 67px;
+        left: 272px;
+    }
+    .sec6left.forsecgrid::before{
+        bottom: 67px;
+        right: 115px;
+    }
+    .centersec6{
+            height: 169px;
+    padding: 19px 0px;
+    }
+    .sec6center::after{
+        left: 221px;
+    }
+    .left11{
+        width: 35%;
+    }
+    .left12{
+        width: 65%;
+    }
+    .sec8::before{
+        left: -130px;
+    }
+}
+@media screen and (max-width:991px){
+    .sec1right a{
+        font: 20px/25px 'oswaldbook';
+    }
+    .sec1right a:nth-of-type(2){
+        font: 20px/25px 'oswaldbook';
+        margin-right: 30px;
+    }
+    .container{
+        max-width: 727px;
+    }
+    .list li{
+        margin-left: 40px;
+    }
+    .sec21 h3{
+        font: 38px/45px 'oswaldbook';
+    }
+    ..sec21 a{
+            margin-top: 22px;
+    font: 15px/25px 'oswaldbook';
+        padding: 10px 50px;
+    }
+    .section3{
+        margin-top: -60px;
+    }
+    .sameclass{
+                width: 237px;
+    margin-right: 8px;
+            height: 293px;
+    }
+    .samediv{
+       width: 136px;
+            margin: 58px 22px;
+    }
+    .samediv h1{
+        font: 50px/55px 'oswaldbook';
+    }
+    .sec5left{
+            margin: 0px 0px 0px 10px;
+        width: 48%;
+    }
+    .sec5left h1{
+        font: 25px/30px 'oswaldbook';
+    }
+    .sec5left ul{
+            font: 14px/20px 'oswaldbook';
+    }
+    .samedivall h1{
+        font: 35px/40px 'oswaldbook';
+    }
+    .samedivall h3{
+        font:  24px/30px 'oswaldbook';
+    }
+    .sec6left{
+        width: 28.33%;
+    }
+    .left1 svg{
+        width: 92%;
+    }
+    .sec82 p{
+        font: 25px/30px 'oswaldbook';
+    }
+    .sec82 h3{
+        font: 57px/65px 'oswaldbook';
+    }
+    .centersec6 img{
+        width: 93%;
+    }
+    .centersec6{
+        height: 140px;
+        padding: 16px 0px;
+    } 
+    .sec6center{
+            padding: 64px 0px;
+    }
+    .sec6center::before{
+        top: 77px;
+    }
+    .sec6center::after{
+        top: 77px;
+            left: 194px;
+    }
+    .sec6left.forgrid::before{
+        bottom: 73px;
+        
+            left: 211px;
+    }
+    .sec6left.forsecgrid::before{
+        z-index: -1;
+        bottom: 70px;
+        right: 85px;
+    }
+    .sec7ul{
+        width: 100%;
+    }
+    .sec11 svg{
+        margin: 10px 9px;
+    }
+    .sec11{
+            width: 119px;
+    }
+    .form{
+        width: 362px;
+    }
+    .form form input{
+        width: 176px!important;
+    }
+}
+@media screen and (max-width:767px){
+    .container{
+            max-width: 579px;
+    }
+    .sec1right a{
+        font: 16px/20px 'oswaldbook';
+    }
+    .sec1right a:nth-of-type(2){
+        font: 16px/20px 'oswaldbook';
+    }
+    .list li{
+        margin-left: 21px;
+    }
+    .section2{
+     height: auto;
+    }
+    .sec21 h3{
+        font: 33px/40px 'oswaldbook';
+    }
+    .sec21 a{
+        padding: 10px 40px;
+        font: 16px/20px 'oswaldbook';
+    }
+    .sameclass{
+            width: 187px;
+    margin-right: 6px;
+    height: 329px;
+    }
+    .section4{
+        height: auto;
+    }
+    .samediv{
+            width: 99px;
+    margin: 37px 19px;
+    }
+    .samediv h1{
+        font: 40px/45px 'oswaldbook';
+    }
+    .samediv p{
+        font: 12px/15px 'oswaldbook';
+    }
+    .sec5left h3{
+        font: 20px/25px 'oswaldbook';
+    }
+    .sec5left h1{
+        font: 20px/25px 'oswaldbook';
+            margin-top: 10px;
+    }
+    .sec5left ul{
+        list-style: none;
+        margin-top: 0px;
+        font: 13px/15px 'oswaldbook';
+    }
+    .sec5left p{
+        margin-top: 20px;
+        font: 14px/29px 'oswaldbook';
+    }
+    .samedivall h3{
+        font: 21px/25px 'oswaldbook';
+            margin-top: 12px;
+    }
+    .samedivall h1{
+        font: 30px/40px 'oswaldbook';
+        margin-top: 12px;
+    }
+    .sec6left{
+        width: 29.33%;
+    }
+    .sec6center{
+        width: 29.33%;
+    }
+    .centersec6{
+        margin-left: 36px;
+        height: 130px;
+        width: 70%;
+    }
+    .left12 p{
+            margin-top: 26px;
+    font: 10px/15px 'oswaldbook';
+    }
+    .sec6left.forgrid::before{
+        width: 40%;
+        left: 180px;
+    }
+    .sec6center::before{
+        width: 40%;
+    }
+    .sec6center::after{
+            top: 70px;
+    left: 136px;
+    }
+    .sec6left.forsecgrid::before{
+        width: 40%;
+        bottom: 77px;
+        right: 160px;
+    }
+    .sec8::before{
+        left: -250px;
+        top: 0px;
+    }
+    .sec81{
+        margin-top: 100px;
+    } 
+    .sec81 p{
+        font: 24px/30px 'oswaldbook';
+    }
+    .sec81 h3{
+        font: 24px/30px 'oswaldbook';
+    }
+    .sec82{
+        margin-top: 120px;
+    }
+    .sec82 p{
+        font: 22px/25px 'oswaldbook';
+    }
+    .sec82 h3{
+        font: 40px/45px 'oswaldbook';
+    }
+    .sec10{
+        bottom: 80px;
+    }
+    .sec10 svg{
+        width: 80%;
+    }
+    .sec11{
+        width: 113px;
+    }
+    .unlist{
+        width: 23%;
+    }
+    .form{
+        width: 323px;
+    }
+    .form form input{
+        width: 159px!important;
+    }
+    .last{
+        height: 43px;
+    }
+    .lastdiv{
+        width: 300px;
+    height: 64px;
+    }
+    .lastdiv svg{
+        margin-top: 7px;
+    }
+    .lastdiv p{
+            margin-top: 7px;
+    font: 16px/30px 'oswaldbook';
+    }
+    .textdiv h5{
+        font: 14px/16px 'oswaldbook';
+    }
+    .last p{
+        12px/15px 'oswaldbook';
+    }
+}
+@media screen and (max-width:601px){
+    .container{
+        max-width: 430px;
+    }
+    .sec1left img{
+        width: 45%;
+    }
+    .sec1right a{
+        font: 10px/15px 'oswaldbook';
+    }
+    .sec1right a:nth-of-type(2){
+        font: 11px/15px 'oswaldbook';
+        margin-top: 5px;
+    }
+    .sec1right a svg{
+        margin-right: 7px;
+    }
+    .sec1right{
+        margin-top: 20px;
+    }
+    .list li{
+        margin-left: 14px;
+    }
+    .list li a{
+            font: 12px/20px 'oswaldbook';
+    }
+    .sec21 h3{
+        font: 27px/30px 'oswaldbook';
+    }
+    .sec21 a{
+        padding: 9px 35px;
+    font: 15px/20px 'oswaldbook';
+        margin-top:20px;
+    }
+    .sameclass{
+            width: 139px;
+    margin-right: 6px;
+    }
+    .sameclass p{
+        font: 13px/20px 'oswaldbook';
+        margin-top: 10px;
+    }
+    .samediv{
+         width: 71px;
+    margin: 27px 18px;
+    }
+    .samediv h1{
+        font: 35px/40px 'oswaldbook';
+    }
+    .samediv p{
+        font: 10px/15px 'oswaldbook';
+    }
+    .sec5left{
+        width: 100%;
+    }
+    .sec5right{
+        width: 100%;
+    }
+    .sec5left h3{
+        font: 26px/30px 'oswaldbook';
+    }
+    .sec5left h1{
+        font: 29px/30px 'oswaldbook';
+    }
+    .sec5left ul{
+        font: 17px/20px 'oswaldbook';
+    }
+    .sec5left p{
+        font: 17px/25px 'oswaldbook';
+    }
+    .samedivall{
+            padding: 35px 0px 7px 0px;
+    }
+    .samedivall h1{
+            font: 25px/40px 'oswaldbook';
+    margin-top: 7px;
+    }
+    .sec6left{
+        width: 100%;
+    }
+    .sec6center{
+        width: 100%;
+        padding: 40px 0px 0px 0px;
+            margin: 0px 18px;
+    }
+    .centersec6 img{
+        width: 80%;
+    }
+    .centersec6{
+        height: 254px;
+        border-radius: 140px;
+    }
+    .sec6left.forgrid::before{
+        display: none;
+    }
+    .sec6center::before{
+        display: none;
+    }
+    .sec6center::after{
+        display: none;
+    }
+    .sec6left.forsecgrid::before{
+        display: none;
+    }
+    .sec9{
+        width: 50%;
+    }
+    .sec10{
+        display: none;
+    }
+    .section11{
+        height: auto;
+    }
+    .sec11{
+        width: 50%;
+    }
+    .unlist{
+        width: 50%;
+    } 
+    .form{
+        width: 100%;
+    }
+    .form form input{
+        width: 49%!important;
+    }
+    .sec11 svg{
+        width: 22%;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+            max-width: 414px;
+    }
+    .sec1right a:nth-of-type(2){
+        margin-right: 27px;
+    }
+    .list li{
+        margin-left: 12px;
+    }
+    .sec21 h3{
+        font: 25px/30px 'oswaldbook';
+    }
+    .sec21 a{
+            padding: 9px 35px;
+    font: 15px/20px 'oswaldbook';
+    margin-top: 20px;
+    }
+    .sameclass{
+            width: 100%;
+    margin-bottom: 10px;
+    }
+    .samediv{
+        width: 100%;
+    margin: 20px 0px;
+    }
+    .samediv h1{
+            font: 60px/40px 'oswaldbook';
+    }
+    .samediv p{
+        font: 16px/15px 'oswaldbook';
+        margin-top:15px;
+    }
+    .sec81 h3{
+        font: 20px/25px 'oswaldbook';
+    }
+    .sec81 p{
+        font: 20px/25px 'oswaldbook';
+    }
+    .sec82{
+        margin-top: 90px;
+    }
+    .sec82 p{
+        font: 20px/25px 'oswaldbook';
+    }
+    .sec82 h3{
+        font: 30px/35px 'oswaldbook';
+    }
+    .sec8::before{
+        left: -200px;
+    }
+    .lastdiv{
+        display: none;
+    }
+    .last p{
+        font: 11px/15px 'oswaldbook';
+    }
+    .sec7leftleft2{
+        padding: 0px 0px 0px 1px;
+    }
+}
+@media screen and (max-width:450px){
+    .sec8::before{
+        left: 0;
+        top: -20px;
+    }
+    .sec81{
+        width: 100%;
+    }
+    .sec82{
+        width: 100%;
+    }
+}
+@media screen and (max-width:425px){
+    .container{
+        max-width: 350px;
+    }
+    .sec1right{
+        width: 54%;
+    }
+    .sec1left{
+        width: 46%;
+    }
+    .sec1right a:nth-of-type(2){
+        margin-right: 9px;
+    }
+    .sec21 h3{
+        font: 22px/25px 'oswaldbook';
+    }
+    .sec21 a{
+            padding: 6px 28px;
+    font: 13px/20px 'oswaldbook';
+    margin-top: 14px;
+    }
+    .centersec6{
+        height: 230px;
+    }
+    .sec8::before{
+        left: 18px;
+    }
+    .sec9{
+        width: 100%;
+    }
+    .sec11 svg{
+        width: 20%;
+    }
+}
+@media screen and (max-width:375px){
+    .container{
+        width: 286px;
+    }
+    .sec1right a{
+        font: 8px/10px 'oswaldbook';
+    }
+    .sec1right a:nth-of-type(2){
+        font: 7px/10px 'oswaldbook';
+    }
+    .sec21 h3{
+        font: 19px/25px 'oswaldbook';
+    }
+    .sec21 a{
+            padding: 3px 22px;
+    font: 11px/20px 'oswaldbook';
+    margin-top: 10px;
+    }
+    .samedivall h1{
+        font: 23px/30px 'oswaldbook';
+    }
+    .sec7ul li{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width:320px){}
+
+
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('../fonts/oswald-regular-webfont.eot');
+    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('../fonts/oswald-regular-webfont.woff') format('woff'),
+         url('../fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oswald-regular-webfont.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
