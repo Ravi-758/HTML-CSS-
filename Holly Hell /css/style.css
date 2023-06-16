@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.section1 {
+	width:100%;
+	text-align:center;
+	border-top: 10px solid #ffa600;    padding: 15px 0;
+}
+.section1 img
+{
+	display:block;
+	margin:0 auto;
+}
+.section1 figure {
+	display:inline-block;
+}
+.section2 {
+	background-color:#cb1111;
+	padding:50px 0px;
+}
+.holyhell {
+	color:white;
+	padding:30px;
+}
+.holyhell h1
+{
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #fff;
+    font-weight: 500;    margin-bottom: 20px;
+    line-height: 70px;
+}
+.holyhell p 
+{
+	    font-size: 22px;
+	letter-spacing:0px;    font-weight: 300;
+}
+.holyhell p a {
+	color:white;
+	font-size: 24px;
+}
+.section3 {
+	padding:30px;
+	position:relative;
+}
+.bottole {
+	position:relative;
+	padding:25px 0px;
+}
+.bottole figure {
+	position:absolute;
+	top:-464px;
+}
+.botletext p {
+	font-size:25px;
+	letter-spacing:1.0px;
+	padding:15px 0px;
+	color:#12050587;
+}
+.botletext a {
+	background-color:#ffa600;
+	color:white;
+	padding:15px 60px;font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0px 2px 8px #888;    display: inline-block;
+}
+.botletext a:hover {
+	background-color:white;
+	color:orange;
+transition:.6s ease-in-out;
+	border:2px solid orange;
+}
+.section4 {
+	position:relative;
+	z-index:1;
+}
+.Salvation h1 {
+	font-size:60px;
+	color:#0000009c;
+}
+.Salvation p {
+	font-size:21px;
+	letter-spacing:.5px;
+	padding:15px 0px;
+	color:#12050587;
+}
+.Salvation a {
+	background-color: #ffa600;
+    color: white;
+    padding: 15px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0px 2px 8px #888;
+    display: inline-block;
+}
+.Salvation a:hover {
+	background-color:white;
+	color:orange;
+transition:.6s ease-in-out;
+	border:2px solid orange;
+}
+.section6 {
+	background-color:#cb1111;
+	padding: 50px 0 0;
+    overflow: hidden;
+}
+.marriagemade h1 {
+	font-size:50px;
+	color:white;    text-shadow: 2px 2px 4px #fff;
+}
+.marriagemade p {
+	font-size:21px;
+	letter-spacing:.5px;
+	padding:10px 0px;
+	color:white;
+}
+.marriagemade a {
+	background-color: #ffa600;
+    color: white;
+    padding: 10px 60px;
+    font-weight: 600;
+    font-size: 18px;
+    box-shadow: 0px 2px 8px #000;
+    display: inline-block;
+}
+.marriagemade a:hover {
+	background-color:white;
+	color:orange;
+transition:.6s ease-in-out;
+	border:2px solid orange;
+}
+.section4 
+{
+border-top: solid 5px #fff;
+}
+.section4 img 
+{
+ margin:0 auto;
+ display:block;
+}
+
+.spacer
+{
+	    margin-top: 25%;
+	position:relative;
+}
+
+.section5
+{
+	background:#efefef;padding:70px 0;
+}
+.imageleft
+{
+	text-align:center;
+}
+.imageleft img
+{
+	margin:0 auto;	
+}
+.imageRight img
+{
+    max-height: 430px;
+    margin: 0 auto;
+    display: block;
+}
+.section6 img
+{
+	bottom: -100px;
+    position: relative;
+}
+
+.section6  .cols-sm-2 
+{
+	width:18%;
+	padding:0px;
+}
+.section6   figure
+{
+    margin: 0;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.marriagemade
+{
+	    padding: 0 0 0 30px;
+}
+
+.section6   .btn
+{
+	padding:0px
+}
+
+ @media screen and (max-width:1200px) {
+ .section5 {
+padding:25px 0px;
+}
+ .Salvation p {
+padding:0px;
+font-size:30px;
+}
+ .btn {
+margin:10px 0px;
+}
+	/*.bottole figure{top:-351px;}*/
+	.Salvation h1 {
+font-size:53px;
+}
+}
+@media screen and (max-width:1025px) {
+/*.section2{padding:15px 0px;}*/
+}
+@media screen and (max-width:991px) {
+.container {
+width:717px;
+}
+ .holyhell h1 {
+font-size:40px;
+}
+ .holyhell p {
+font-size:25px;
+letter-spacing: 1.0px;
+}
+ .botletext p {
+font-size:28px ;
+letter-spacing: 0.8px;
+padding: 25px 0px;
+color: #12050587;
+}
+ .bottole figure {
+top:-200px
+}
+ .Salvation h1 {
+font-size:35px;
+}
+ .Salvation p {
+padding: 0px;
+font-size:21px ;
+}
+ .section6 {
+padding:30px 0px;
+}
+ .marriagemade h1 {
+font-size:35px;
+}
+ .marriagemade p {
+padding: 10px 0px;
+}
+@media screen and (max-width:767px) {
+	
+	.spacer {
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+}
+	
+	
+ .container {
+width:570px;
+}
+ .holyhell h1 {
+
+}
+ .holyhell p {
+letter-spacing:0px;
+}
+ .botletext p {
+}
+ .bottole figure {
+display:none;
+}
+ .Salvation h1 {
+}
+ .Salvation p {
+padding: 14px 0px;
+}
+ .btn {
+float:none;
+text-align:center;
+display:block;
+margin:20px 0px;
+}
+ .fornone {
+display:none;
+}
+ .marriagemade h1 {
+}
+ .marriagemade p {
+padding: 22px 0px;
+}
+}
+@media screen and (max-width:601px) {
+ .container {
+width:450px;
+}
+ .botletext p {
+}
+}
+@media screen and (max-width:480px) {
+ .container {
+width:416px;
+}
+ .holyhell h1 {
+}
+ .Salvation h1 {
+text-align:center;
+}
+}
+@media screen and (max-width:450px) {
+ .container {
+width:395px;
+}
+ .holyhell h1 {
+}
+ .marriagemade h1 {
+}
+}
+@media screen and (max-width:425px) {
+ .container {
+width:346px;
+}
+ .holyhell h1 {
+}
+ .Salvation h1 {
+}
+ .Salvation p {
+}
+ .marriagemade h1 {
+}
+}
+@media screen and (max-width:375px) {
+ .container {
+width:288px;
+}
+}
+
+
