@@ -1,0 +1,332 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    overflow-x: hidden;
+}
+.forfigure figure{
+    float: left;
+}
+.forfigure p{
+    float: left;
+    margin-left: 10px;
+    font: 14px/20px 'roboto_condensedregular';
+    color: #908F8F;
+}
+.forsvg figure{
+    float: left;
+}
+.navbar-inverse{
+    position: relative;
+}
+.centerdiv{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+}
+.section1{
+    margin-top: -20px;
+}
+.forsvg li:last-child a{
+    padding: 5px;
+    display: inline-block;
+}
+.carousel-caption{
+    right: 34%;
+    top: 25%;
+}
+.carousel-caption h1{
+  font: 59px/65px 'roboto_condensedbold';
+    letter-spacing:6px;
+}
+.forlink a{
+    padding: 15px 30px;
+    background-color: #FF3333;
+    color: white;
+    font: 16px/40px 'roboto_condensedbold';
+    height: 60px;
+}
+.forlink{
+    margin-top: 40px;
+    margin-left: 7px;
+}
+.ulist.carousel-caption{
+    right: 0%;
+    top: 6%;
+} 
+.ulist li a{
+    color: white;
+    font: 14px/20px 'roboto_condensedbold';
+    padding-bottom: 10px;
+}
+.ulist li a:hover{
+    border-bottom: 2px solid #FF3333;
+ 
+}
+.ulist li{
+    margin-right: 50px;
+}
+.ulist li:last-child {
+    margin-right: 0px;
+}
+.save{
+    position: relative;
+}
+.shop{
+    background-color: #191919;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    color: white;
+}
+.shop h2{
+    font: 40px/45px 'roboto_condensedbold';
+}
+.shop a{
+    color: white;
+    padding: 10px 20px;
+    background-color: #FF3333;
+}
+.buy{
+    margin-top: 60px;
+    position: relative;
+}
+.woman{
+    position: relative;
+}
+.top{
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.top h1{
+    font: 32px/40px 'roboto_condensedbold';
+    color: #1A1A1A;
+}
+.top p{
+    font: 22px/30px 'roboto_condensedbold';
+    padding-bottom: 20px;
+}
+.top a{
+      color: white;
+    padding: 10px 20px;
+    background-color: #FF3333;
+}
+.section2{
+    padding: 50px;
+    border-bottom: 2px solid black;
+}
+.snapbacks{
+     position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.snapbacks h1{
+     font: 32px/40px 'roboto_condensedbold';
+    color: #1A1A1A;
+}
+.snapbacks p{
+       font: 22px/30px 'roboto_condensedbold';
+    padding-bottom: 20px;
+}
+.snapbacks a{
+      color: white;
+    padding: 10px 20px;
+    background-color: #FF3333;
+}
+.section3{
+    padding: 80px;
+}
+.realman{
+    position: relative;
+}
+.sameclass{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+        height: 100px;
+    width: 58%;
+    right: 0;
+    left: 0;
+}
+.sameclass h1{
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font: 26px/30px  'roboto_condensedbold';
+}
+.mixmatch{
+    position: relative;
+}
+.lookbook{
+    position: relative;
+    margin-top: 60px;
+}
+.forvideo{
+    position: relative;
+}
+.section4{
+    background-color: #191919;
+    padding: 50px;
+}
+.playbtn{
+    position: absolute;
+    top: 160px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+.forh1 h1{
+    font: 40px/45px 'roboto_condensedbold';
+    color: white;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #ff3333;
+}
+.forh1{
+    margin-top: 130px;
+}
+.fora a{
+    padding: 15px 30px;
+    background-color: #ff3333;
+    color: white;
+    font: 18px/25px 'roboto_condensedbold';
+}
+.fora{
+    margin-top: 15px;
+    float: left;
+}
+.inputdiv input{
+    padding: 15px 30px;
+}
+.inputdiv{
+    float: left;
+}
+.section5{
+    padding: 60px;
+}
+.fordesign p{
+    font: 14px/20px 'roboto_condensedbold';
+    opacity: 0.5;
+}
+.group{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.fordesign h2{
+    font: 30px/35px 'roboto_condensedbold';
+}
+.section6{
+    background-color: #3B5997;
+    padding-top: 20px;
+}
+.facebookdiv h1{
+    font: 30px/35px 'roboto_condensedbold';
+    color: white;
+}
+.facebookdiv p{
+    font: 24px/30px 'roboto_condensedbold';
+    color: white;
+}
+.rightarrow{
+    margin-top: 60px;
+}
+.div20{
+    width: 20%;
+    float: left;
+}
+.section7{
+    position: relative;
+}
+.upperdiv{
+    background-color: #010103;
+    color: white;
+    position:absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 371px;
+    height: 105px;
+    z-index: 1;
+}
+.upperdiv p{
+    font: 20px/25px 'roboto_condensedregular';
+    text-align: center;
+        color:#737373;
+    margin-top: 20px;
+}
+.upperdiv h1{
+    font: 32px/35px 'roboto_condensedbold';
+    text-align: center;
+}
+.section7::after{
+        content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+}
+.loyal h2{
+    color: #070608;
+    font: 20px/25px 'roboto_condensedbold';
+    padding-bottom: 10px;
+}
+.loyal p{
+    color: #908F8F;
+    font: 14px/25px 'roboto_condensedregular';
+}
+.loyal ul li{
+    border-right: 2px solid #2D2C2C;
+}
+.loyal ul li:last-child{
+    border: none;
+}
+.custom h2{
+     color: #070608;
+    font: 20px/25px 'roboto_condensedbold';
+}
+.custom ul li a{
+    font: 14px/60px 'roboto_condensedregular';
+    color: #908F8F;
+}
+.custom ul li{
+    margin-left: 0px;
+}
+.lastdiv p{
+    font: 14px/20px 'roboto_condensedregular';
+    color: #3B3B3B;
+}
+.section8{
+    border-bottom: 2px solid #3B3B3B;
+    padding: 50px;
+}
+footer{
+    padding: 30px;
+}
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('../fonts/robotocondensed-regular-webfont.woff2') format('woff2'),
+         url('..fonts/robotocondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+         url('../fonts/robotocondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;  font-style: normal;
+}
