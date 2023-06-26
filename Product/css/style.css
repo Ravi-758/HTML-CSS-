@@ -1,0 +1,273 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar-header{
+	width:21%;
+	}
+.forfloat{
+	float:left;
+	}
+.navbar-brand.forfigure{
+	font:14px/20px 'century-gothics-regular';
+	width:100%;
+	}
+.nav.navbar-nav.navbar-left.fornavh2 h2{
+	font:27px/35px 'century-gothics-bold';
+	margin-top:10px;
+	}
+.nav.navbar-nav.navbar-left.fornavh2{
+	width:55%;
+	}
+.forfont{
+	font:14px/20px 'century-gothics-regular';
+	margin-right:15px;
+	}
+.navbar.navbar-default{
+	border-bottom:2px solid #B5C347;
+	}
+.forfloatright{
+	float:right;
+	}
+.section1{
+	width:100%;
+	float:left;
+	}
+.section1 ul li a{
+	font:14px/20px 'century-gothics-regular';
+	color:#000;
+	text-decoration:none;
+	}
+.section1 ul li{
+	padding-right: 20px;
+    padding-left: 20px;
+	padding-bottom:12px;
+	}
+.section1 ul li:last-child{
+	display:inline-flex;
+	}
+.section1 ul li:hover{
+	border-bottom:1.5px solid #B5C347;
+	padding-bottom:10px;
+	}
+.section2{
+	width:100%;
+	float:left;
+	}
+.carousel-caption{
+	right:62%;
+	left:0%;
+	top:0;
+	}
+.forfont h1{
+	font:60px/70px 'afta_serifregular';
+	color:black;
+	}
+.forfont p{
+	font:24px/30px 'century-gothics-regular';
+	position:relative;
+	padding-bottom:20px;
+	}
+.forfont p:after{
+	 position: absolute;
+    content: ' ';
+    width: 60px;
+    height: 1px;
+    background-color: #000;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+	}
+.fora a{
+	font:14px/20px 'century-gothics-regular';
+	padding:10px 50px;
+	border:1px solid #B5C347;
+	background-color:#B5C347;
+	color:white;
+	}
+.fora{
+	padding-top:15px;
+	}
+.fora a:hover{
+	background-color:white;
+	color:#B5C347;
+	}
+.section3 p{
+	font:24px/30px 'century-gothics-regular';
+	}
+.section3 h4{
+	font:14px/20px 'century-gothics-regular';
+	}
+.section3{
+	width:100%;
+	float:left;
+	padding:70px;
+	}
+.section4{
+	width:100%;
+	float:left;
+	}
+.section4 h2{
+	font:30px/80px 'century-gothics-regular';
+	}
+.section4 p{
+	font:18px/35px 'century-gothics-regular';
+	}
+.section4 a{
+	font:18px/35px 'century-gothics-regular';
+	color:#000;
+	margin-top:10px;
+	padding:10px 50px;
+	border:1px solid #000;
+	}
+.section4 a:hover{
+	background-color:#000;
+	color:white;
+	}
+.section5{
+	width:100%;
+	float:left;
+	padding:50px 0px;
+	}
+.collection h1{
+	font:60px/70px 'afta_serifregular';
+	padding-bottom:20px;
+	}
+.collection p{
+	font:24px/30px 'century-gothics-regular';
+	padding-bottom:10px;
+	}
+.shop{
+	padding:40px;
+	}
+.shop a{
+	padding:10px 40px;
+	font:14px/20px 'century-gothics-regular';
+	border:1px solid black;
+	color:#000;
+	text-decoration;
+	}
+.shop a:hover{
+	background-color:#000;
+	color:white;
+	}
+.forp p{
+	font:30px/40px 'century-gothics-regular';
+	}
+.forwidth{
+	width:100%;
+	float:left;
+	}
+.for20{
+	width:20%;
+	float:left;
+	}
+.ourpro h1{
+	font:30px/40px 'century-gothics-regular';
+	padding-bottom:15px;
+	letter-spacing:2px;
+	}
+.ourpro ul li{
+	font:18px/25px 'century-gothics-regular';
+	padding:0px 13px;
+	}
+.section7{
+	width:100%;
+	float:left;
+	padding:80px;
+	}
+.custmer h2{
+	font:27px/35px 'century-gothics-regular';
+	padding-bottom:10px;
+	}
+.custmer p{
+	font:18px/25px 'century-gothics-regular';
+	}
+.custmer ul{
+	list-style:none;
+	padding:0;
+	}
+.custmer ul li a{
+	font:18px/35px 'century-gothics-regular';
+	color:#000;
+	text-decoration:none;
+	padding-bottom:6px;
+	}
+.custmer ul li a:hover{
+	border-bottom:1px solid #B5C347;
+	}
+.custmer h1{
+	font:48px/60px 'afta_serifregular';
+	}
+.news{
+	width:75%;
+	}
+.signin{
+	margin-top:7px;
+	}
+.signin a{
+	padding:10px 20px;
+	border:1px soild #B5C347;
+	background-color:#B5C347;
+	color:white;
+	font:14px/20px 'century-gothics-regular';
+	}
+.col-md-12.col-xs-12.col-sm-12.lable.control-label{
+	padding-left:0;
+	font:14px/20px 'century-gothics-regular';
+	}
+.pay{
+	padding-top:60px
+	}
+.pay p{
+	float:left;
+	font:18px/25px 'century-gothics-regular';
+	}
+.section8{
+	width:100%;
+	float:left;
+	padding:70px;
+	}
+.section9{
+	background-color:black;
+	color:white;
+	width:100%;
+	float:left;
+	padding:40px;
+	}
+.foot ul li{
+	border-right:1px solid #B5C347;
+	}
+.foot ul li a{
+	font:18px/25px 'century-gothics-regular';
+	color:#B5C347;
+	}
+
+
+
+@font-face {
+    font-family: 'century-gothics-regular';
+    src: url('../fonts/GOTHIC.eot');
+    src: url('../fonts/GOTHIC.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GOTHIC.woff') format('woff'),
+         url('../fonts/GOTHIC.ttf') format('truetype'),
+         url('../fonts/GOTHIC.svg#century-gothics-regular') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+@font-face {
+    font-family: 'century-gothics-bold';
+    src: url('../fonts/GOTHICB.eot');
+    src: url('../fonts/GOTHICB.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GOTHICB.woff') format('woff'),
+         url('../fonts/GOTHICB.ttf') format('truetype'),
+         url('../fonts/GOTHICB.svg#century-gothics-bold') format('svg');
+    font-weight: normal;  font-style: normal;
+}
+@font-face {
+    font-family: 'afta_serifregular';
+    src: url('../fonts/aftaserifthin-regular.woff2') format('woff2'),
+         url('../fonts/aftaserifthin-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
