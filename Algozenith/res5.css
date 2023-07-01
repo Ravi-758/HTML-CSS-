@@ -8,8 +8,8 @@ body{
 }
 .upper-div{
    
-    /* width: 100%; */
-    width: 1600px;
+    width: 100%;
+/*     width: 1600px; */
    background-image: url(Laptop\ &\ BG.png);
     display: flex;
     flex-direction: row;
